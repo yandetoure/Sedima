@@ -11,7 +11,7 @@
             <!-- Main Content Card -->
             <!-- TranslateY pushes it down to overlap the bottom edge -->
             <div
-                class="pointer-events-auto bg-white rounded-[32px] p-10 md:p-12 md:pb-32 max-w-2xl shadow-2xl relative z-30 translate-y-10 md:translate-y-1/4">
+                class="pointer-events-auto bg-white rounded-[32px] p-10 md:p-12 md:pb-32 max-w-2xl shadow-2xl relative z-30 translate-y-10 md:translate-y-[70px]">
                 <h1 class="text-4xl md:text-6xl font-black text-sedima-black leading-tight mb-8">
                     SEDIMA, leader de l'agrobusiness en Afrique de l'Ouest.
                 </h1>
@@ -44,7 +44,7 @@
 
     <!-- Stats Cards (Below the image) -->
     <!-- Added margin top to accommodate the overlapping valid card above -->
-    <div class="container mx-auto px-4 relative z-20 mt-32 md:mt-48">
+    <div class="container mx-auto px-4 relative z-20 mt-32 md:mt-32">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <!-- Card 1 -->
             <div class="bg-white rounded-[24px] p-6 flex items-center space-x-4 shadow-xl border border-gray-100">
