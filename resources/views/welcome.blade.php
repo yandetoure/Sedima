@@ -21,8 +21,7 @@
             <div
                 class="relative rounded-full overflow-hidden w-full max-w-md mx-auto aspect-square bg-gray-100 flex items-center justify-center">
                 <!-- Circular Image mask/placeholder -->
-                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1000"
-                    class="w-full h-full object-cover opacity-80" alt="CEO">
+                <img src="{{ asset('images/groupe.png') }}" class="w-full h-full object-cover" alt="Présentation du Groupe">
                 <div class="absolute inset-0 flex items-center justify-center">
                     <button
                         class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
