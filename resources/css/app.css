@@ -4,6 +4,8 @@
     --color-sedima-red: #E30613;
     --color-sedima-black: #1D1D1B;
     --color-sedima-gray: #F3F4F6;
+    --color-sedima-yellow: #FFD700;
+    /* Adjusted to a standard gold/yellow, will tune if needed */
 
     --font-sans: Figtree, sans-serif;
 }
