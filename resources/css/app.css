@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-sedima-red: #E30613;
+    --color-sedima-black: #1D1D1B;
+    --color-sedima-gray: #F3F4F6;
+
+    --font-sans: Figtree, sans-serif;
+}
