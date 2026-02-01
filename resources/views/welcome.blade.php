@@ -372,7 +372,7 @@
                 <!-- Article Principal (Grande Carte à Gauche) -->
                 <div
                     class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <div class="relative h-96">
+                    <div class="relative h-[500px]">
                         <img src="{{ asset('images/article 1.jpg') }}" alt="Modernisation des infrastructures"
                             class="w-full h-full object-cover">
                         <!-- Date Badge -->
@@ -424,7 +424,7 @@
                         class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                         <div class="grid grid-cols-5 gap-0">
                             <!-- Image -->
-                            <div class="col-span-2 relative h-64">
+                            <div class="col-span-2 relative h-80">
                                 <img src="{{ asset('images/article 2.jpg') }}" alt="Partenariats avicoles"
                                     class="w-full h-full object-cover">
                             </div>
@@ -477,7 +477,7 @@
                         class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                         <div class="grid grid-cols-5 gap-0">
                             <!-- Image -->
-                            <div class="col-span-2 relative h-64">
+                            <div class="col-span-2 relative h-80">
                                 <img src="{{ asset('images/article 3.jpg') }}" alt="Engagements RSE"
                                     class="w-full h-full object-cover">
                             </div>
