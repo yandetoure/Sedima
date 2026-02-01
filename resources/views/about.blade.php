@@ -26,7 +26,7 @@
                 </div>
 
                 <!-- Title -->
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-sedima-black leading-tight mb-6">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-sedima-black leading-tight mb-6 px-16 md:px-32">
                     Un leader agro-industriel engagé pour la sécurité alimentaire en Afrique de l'Ouest.
                 </h1>
 
@@ -45,7 +45,7 @@
     <!-- Présentation du Groupe Section -->
     <div class="bg-gray-50 pt-48 md:pt-56 pb-16 md:pb-24">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
                 <!-- Left Content -->
                 <div>
                     <!-- Badge -->
@@ -82,10 +82,10 @@
                 </div>
 
                 <!-- Right Image -->
-                <div class="relative">
-                    <div class="rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="{{ asset('images/groupe.png') }}" alt="Bâtiment SEDIMA"
-                            class="w-full h-auto object-cover">
+                <div class="relative h-full">
+                    <div class="rounded-2xl overflow-hidden shadow-lg h-full">
+                        <img src="{{ asset('images/presentation.png') }}" alt="Bâtiment SEDIMA"
+                            class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
