@@ -335,4 +335,198 @@
             </div>
         </div>
     </div>
+
+    <!-- Actualités & Médias Section -->
+    <div class="bg-white py-20">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="flex items-center justify-between mb-12">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <span class="w-8 h-8 bg-sedima-yellow rounded-full flex items-center justify-center mr-3">
+                            <svg class="w-4 h-4 text-sedima-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="font-bold text-gray-400 tracking-widest text-sm uppercase">Actualités & Médias</span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-sedima-black leading-tight">
+                        L'actualité du<br>
+                        groupe SEDIMA
+                    </h2>
+                </div>
+                <a href="#"
+                    class="hidden md:inline-flex items-center px-6 py-3 bg-sedima-black text-white rounded-full font-medium hover:bg-gray-800 transition">
+                    <svg class="w-4 h-4 mr-2 rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18">
+                        </path>
+                    </svg>
+                    Le Blog SEDIMA
+                </a>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Article Principal (Grande Carte à Gauche) -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="relative h-96">
+                        <img src="{{ asset('images/article 1.jpg') }}" alt="Modernisation des infrastructures"
+                            class="w-full h-full object-cover">
+                        <!-- Date Badge -->
+                        <div class="absolute top-6 right-6 bg-white rounded-2xl px-4 py-3 text-center shadow-lg">
+                            <div class="text-3xl font-black text-sedima-black leading-none">28</div>
+                            <div class="text-xs font-medium text-gray-500 uppercase">Jan</div>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <!-- Meta Info -->
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            <span class="text-xs font-medium text-gray-500">12 Mai 2026</span>
+                            <span
+                                class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Industrie</span>
+                            <span
+                                class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Infrastructures</span>
+                            <span
+                                class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Modernisation</span>
+                            <div class="flex items-center ml-auto">
+                                <span class="text-xs text-gray-500 mr-1">Publié par</span>
+                                <span class="text-xs font-semibold text-sedima-black">Fatima</span>
+                                <img src="{{ asset('images/Babacar.png') }}" alt="Fatima" class="w-5 h-5 rounded-full ml-1">
+                            </div>
+                        </div>
+
+                        <!-- Title -->
+                        <h3
+                            class="text-2xl font-bold text-sedima-black mb-4 leading-tight group-hover:text-sedima-red transition">
+                            Modernisation des infrastructures industrielles de SEDIMA.
+                        </h3>
+
+                        <!-- CTA Button -->
+                        <a href="#"
+                            class="inline-flex items-center px-5 py-2.5 bg-sedima-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition">
+                            <svg class="w-4 h-4 mr-2 rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 10l7-7m0 0l7 7m-7-7v18">
+                                </path>
+                            </svg>
+                            Lire la suite
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Colonne Droite (2 Articles Empilés) -->
+                <div class="space-y-8">
+                    <!-- Article 2 -->
+                    <div
+                        class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="grid grid-cols-5 gap-0">
+                            <!-- Image -->
+                            <div class="col-span-2 relative h-64">
+                                <img src="{{ asset('images/article 2.jpg') }}" alt="Partenariats avicoles"
+                                    class="w-full h-full object-cover">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="col-span-3 p-6 flex flex-col justify-between">
+                                <!-- Meta Info -->
+                                <div>
+                                    <div class="flex items-center gap-2 mb-3">
+                                        <span
+                                            class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">Partenariats</span>
+                                        <div class="flex items-center ml-auto">
+                                            <span class="text-xs text-gray-500 mr-1">Publié par</span>
+                                            <span class="text-xs font-semibold text-sedima-black">Fatima</span>
+                                            <img src="{{ asset('images/Babacar.png') }}" alt="Fatima"
+                                                class="w-5 h-5 rounded-full ml-1">
+                                        </div>
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h3
+                                        class="text-lg font-bold text-sedima-black mb-3 leading-tight group-hover:text-sedima-red transition">
+                                        SEDIMA renforce ses partenariats pour le développement de la filière avicole.
+                                    </h3>
+
+                                    <!-- Excerpt -->
+                                    <p class="text-gray-600 text-sm mb-4 leading-relaxed line-clamp-3">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis nisl turpis.
+                                        Etiam rhoncus, magna sit fringilla, lacus null...
+                                    </p>
+                                </div>
+
+                                <!-- CTA Button -->
+                                <a href="#"
+                                    class="inline-flex items-center px-4 py-2 bg-sedima-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition self-start">
+                                    <svg class="w-3 h-3 mr-1.5 rotate-45" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 10l7-7m0 0l7 7m-7-7v18">
+                                        </path>
+                                    </svg>
+                                    Lire la suite
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Article 3 -->
+                    <div
+                        class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="grid grid-cols-5 gap-0">
+                            <!-- Image -->
+                            <div class="col-span-2 relative h-64">
+                                <img src="{{ asset('images/article 3.jpg') }}" alt="Engagements RSE"
+                                    class="w-full h-full object-cover">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="col-span-3 p-6 flex flex-col justify-between">
+                                <!-- Meta Info -->
+                                <div>
+                                    <div class="flex items-center gap-2 mb-3">
+                                        <span
+                                            class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">RSE</span>
+                                        <div class="flex items-center ml-auto">
+                                            <span class="text-xs text-gray-500 mr-1">Publié par</span>
+                                            <span class="text-xs font-semibold text-sedima-black">Fatima</span>
+                                            <img src="{{ asset('images/Babacar.png') }}" alt="Fatima"
+                                                class="w-5 h-5 rounded-full ml-1">
+                                        </div>
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h3
+                                        class="text-lg font-bold text-sedima-black mb-3 leading-tight group-hover:text-sedima-red transition">
+                                        Engagements RSE : SEDIMA agit pour une agriculture durable - RSE, Formation, Actions
+                                        terrain.
+                                    </h3>
+
+                                    <!-- Excerpt -->
+                                    <p class="text-gray-600 text-sm mb-4 leading-relaxed line-clamp-3">
+                                        Suspendisse massa lacus, accumsan vel vulputate non, consectetur ut ligula. Nullam.
+                                        Phasellus tristique neque eget neque...
+                                    </p>
+                                </div>
+
+                                <!-- CTA Button -->
+                                <a href="#"
+                                    class="inline-flex items-center px-4 py-2 bg-sedima-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition self-start">
+                                    <svg class="w-3 h-3 mr-1.5 rotate-45" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 10l7-7m0 0l7 7m-7-7v18">
+                                        </path>
+                                    </svg>
+                                    Lire la suite
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
