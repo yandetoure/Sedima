@@ -85,10 +85,10 @@
 
             <!-- Nav Links -->
             <nav class="hidden md:flex bg-gray-100 rounded-full px-1 py-1">
-                <a href="#"
-                    class="px-5 py-2 rounded-full bg-black text-white font-medium text-sm transition">Accueil</a>
-                <a href="#"
-                    class="px-5 py-2 rounded-full text-gray-700 font-medium text-sm hover:bg-gray-200 transition">À
+                <a href="{{ route('welcome') }}"
+                    class="px-5 py-2 rounded-full {{ request()->is('/') ? 'bg-black text-white' : 'text-gray-700 hover:bg-gray-200' }} font-medium text-sm transition">Accueil</a>
+                <a href="{{ route('about') }}"
+                    class="px-5 py-2 rounded-full {{ request()->is('about') ? 'bg-black text-white' : 'text-gray-700 hover:bg-gray-200' }} font-medium text-sm transition">À
                     propos</a>
                 <a href="#"
                     class="px-5 py-2 rounded-full text-gray-700 font-medium text-sm hover:bg-gray-200 transition">Nos
